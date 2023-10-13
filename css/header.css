@@ -1,0 +1,24 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 125px;
+    background: linear-gradient(rgb(80, 80, 80), black);
+    width: 100%;
+}
+
+#avengers_logo {
+    position: absolute;
+    left: 100px;
+    height: 95px;
+}
+
+#avengers_name {
+    height: 110px;
+}
+
+#hamburguer_menu {
+    height: 50px;
+    position: absolute;
+    right: 100px;
+}
