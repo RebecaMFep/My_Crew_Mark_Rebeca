@@ -5,31 +5,40 @@
 
 #heroes_section {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
     background-color: rgb(51, 51, 51);
-    height: 50%;
+    height: 80%;
 }
 
-#hero_names_div {
+.hero_section {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    margin: 50px 0 50px 0;
 }
 
-#hero_pictures_div {
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
+#captain_america_section {
+    margin-left: 10%;
+}
+
+#captain_marvel_section {
+    margin-right: 10%;
 }
 
 .hero_name {
     color: white;
     font-size: 28px;
+    padding-bottom: 50px;
 }
 
 .hero_picture {
-    height: 20%;
-    margin-left: -4%;
-    margin-right: -4%;
+    height: 30%;
+}
+
+.hero_desc {
+    color: white;
+    font-size: 24px;
+    padding-top: 50px;
 }
