@@ -3,6 +3,14 @@
     height: 100vh;
 }
 
+#banner_section {
+    height: auto;
+}
+
+#banner_1 {
+    width: 100%;
+}
+
 #heroes_section {
     display: flex;
     flex-direction: row;
@@ -10,11 +18,6 @@
     background-color: rgb(51, 51, 51);
     height: 50%;
     width: 100%;
-    margin-top: auto;
-    margin-bottom: auto;
-    position: absolute;
-    top: 50%;
-    bottom: 50%;
 }
 
 .hero_section {
