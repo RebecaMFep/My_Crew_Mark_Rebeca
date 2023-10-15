@@ -1,0 +1,75 @@
+main {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    background-size: cover;
+    height: 90vh;
+}
+
+form {
+    margin: auto;
+    background-color: rgb(34, 34, 34);
+    width: 450px;
+    height: 530px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#form_title {
+    font-size: 20px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    text-align: center;
+    color:white;
+}
+
+label {
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.data_field {
+    height: 30px;
+    margin-bottom: 20px;
+    background-color: rgb(141, 141, 141);
+}
+
+#btn_container {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px 30px 0px 30px;
+}
+
+.btn {
+    background-color: #ac2828;
+    color: white;
+    padding: 3px 10px 3px 10px;
+}
+
+#logos_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 140px;
+}
+
+.form_logo {
+}
+
+.form_line {
+    height: 2px;
+    width: 30px;
+    background-color: white;
+}
+
+#left_line {
+    margin: 0px 20px 0px 0px;
+}
