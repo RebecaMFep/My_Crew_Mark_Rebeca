@@ -1,6 +1,6 @@
 #main_about_us {
     background-color: rgb(0, 0, 0);
-    height: 100vh;
+    height: 85vh;
 }
 
 #banner_section {
@@ -44,6 +44,27 @@
 
 .hero_picture {
     height: 40%;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#captain_america_img {
+    background-image: url(/assets/pictures/captain-america-circle.png);
+}
+
+#captain_america_img:hover {
+    background-image: url(/assets/pictures/captain-america-logo.png);
+}
+
+#captain_marvel_img {
+    background-image: url(/assets/pictures/captain-marvel-circle.png);
+}
+
+#captain_marvel_img:hover {
+    background-image: url(/assets/pictures/captain-marvel-logo.png);
+    width: 50%;
 }
 
 .hero_desc {
